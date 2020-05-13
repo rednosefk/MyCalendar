@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <title>Calendar</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main-block">
+		<div class="main-calendar">
+			<div class="calendar-select">
+				<div class="wrap-title">
+					<h2 id="mainTitle">My Calendar</h2>
+				</div>
+				<div class="wrap-year">
+					<select id="yearSelect"></select>
+				</div>
+				<div class="wrap-month">
+					<select name="" id="monthSelect"></select>
+				</div>
+				<div class="wrap-btn">
+					<button id="setMonthAndYear" onclick="changeCalendar();">Confirm
+					</button>
+				</div>
+			</div>
+			<div class="wrap-weekdays">
+				<div class = "nameDay">Mo</div>
+				<div class = "nameDay">Tu</div>
+				<div class = "nameDay">We</div>
+				<div class = "nameDay">Th</div>
+				<div class = "nameDay">Fr</div>
+				<div class = "nameDay">Sa</div>
+				<div class = "nameDay">Su</div>
+			</div>
+			<div id="days-cont">
+				<!-- <div class="days">
+					<div class="dayNum"></div>
+					<div class="dayNum"></div>
+					<div class="dayNum"></div>
+					<div class="dayNum"></div>
+					<div class="dayNum">1</div>
+					<div class="dayNum">2</div>
+					<div class="dayNum">3</div>
+				</div>
+				<div class="days">
+					<div class="dayNum">4</div>
+					<div class="dayNum">5</div>
+					<div class="dayNum">6</div>
+					<div class="dayNum">7</div>
+					<div class="dayNum">8</div>
+					<div class="dayNum">9</div>
+					<div class="dayNum">10</div>
+				</div>
+				<div class="days">
+					<div class="dayNum">11</div>
+					<div class="dayNum">12</div>
+					<div class="dayNum">13</div>
+					<div class="dayNum">14</div>
+					<div class="dayNum">15</div>
+					<div class="dayNum">16</div>
+					<div class="dayNum">17</div>
+				</div>	
+				<div class="days">
+					<div class="dayNum">18</div>
+					<div class="dayNum">19</div>
+					<div class="dayNum">20</div>
+					<div class="dayNum">21</div>
+					<div class="dayNum">22</div>
+					<div class="dayNum">23</div>
+					<div class="dayNum">24</div>
+				</div>
+				<div class="days">
+					<div class="dayNum">25</div>
+					<div class="dayNum">26</div>
+					<div class="dayNum">27</div>
+					<div class="dayNum">28</div>
+					<div class="dayNum">29</div>
+					<div class="dayNum">30</div>
+					<div class="dayNum">31</div>
+				</div> -->
+			</div>
+		
+
+			
+		</div>
+	</div>
+
+
+<script src="script.js"></script>
+</body>
